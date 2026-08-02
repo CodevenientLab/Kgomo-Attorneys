@@ -12,7 +12,7 @@ export default function Header() {
   return (
     <header className={scrolled ? 'scrolled' : ''}>
       <div className="brand">
-        <img src="/logo.png" alt="Kgomo Attorneys Inc logo" />
+        <img src={`${import.meta.env.BASE_URL}logo.png`} alt="Kgomo Attorneys Inc logo" />
       </div>
       <nav>
         <a href="#standing">The Firm</a>

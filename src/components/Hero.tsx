@@ -22,7 +22,7 @@ export default function Hero() {
           </a>
         </div>
         <div className="seal">
-          <img src="/logo.png" alt="Kgomo Attorneys Inc seal" />
+          <img src={`${import.meta.env.BASE_URL}logo.png`} alt="Kgomo Attorneys Inc seal" />
         </div>
       </div>
 
